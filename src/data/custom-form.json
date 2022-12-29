@@ -1,0 +1,69 @@
+[
+  {
+    "type": "text",
+    "name": "firstName",
+    "placeholder": "Juan",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 3
+      },
+      {
+        "type": "maxLength",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "name": "lastName",
+    "placeholder": "Hander",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "email@exmaple.com ",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "label": "Favorite Game",
+    "name": "favoriteGame",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "name": "Halo"
+      },
+      {
+        "id": 2,
+        "name": "Call of Duty"
+      },
+      {
+        "id": 3,
+        "name": "GTA"
+      }
+    ]
+  }
+]
